@@ -1,0 +1,14 @@
+C:\c#\big\dataBase\bin\Debug\net8.0\dataBase.deps.json
+C:\c#\big\dataBase\bin\Debug\net8.0\dataBase.runtimeconfig.json
+C:\c#\big\dataBase\bin\Debug\net8.0\dataBase.dll
+C:\c#\big\dataBase\bin\Debug\net8.0\dataBase.pdb
+C:\c#\big\dataBase\obj\Debug\net8.0\dataBase.csproj.AssemblyReference.cache
+C:\c#\big\dataBase\obj\Debug\net8.0\dataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\c#\big\dataBase\obj\Debug\net8.0\dataBase.AssemblyInfoInputs.cache
+C:\c#\big\dataBase\obj\Debug\net8.0\dataBase.AssemblyInfo.cs
+C:\c#\big\dataBase\obj\Debug\net8.0\dataBase.csproj.CoreCompileInputs.cache
+C:\c#\big\dataBase\obj\Debug\net8.0\dataBase.dll
+C:\c#\big\dataBase\obj\Debug\net8.0\refint\dataBase.dll
+C:\c#\big\dataBase\obj\Debug\net8.0\dataBase.pdb
+C:\c#\big\dataBase\obj\Debug\net8.0\dataBase.genruntimeconfig.cache
+C:\c#\big\dataBase\obj\Debug\net8.0\ref\dataBase.dll
