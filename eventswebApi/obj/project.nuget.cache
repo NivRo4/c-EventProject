@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r14k5CD9Ktjy+lwCKvK9hJgJ3slNu4qoqRZYl7hlBZ3E786kqMjUhE62Sk4k/oI8N20vEOQLzL7K1UxHJ1nQxw==",
+  "dgSpecHash": "eTR6PIf9705BasoPhKsfhp+Vr0EGoMsu5vs1vS0eajB4QFfl+BH4/42Q9KbyPkVEeJUAGwbLyN9XdeZoK5jGdA==",
   "success": true,
-  "projectFilePath": "C:\\c#\\big\\eventswebApi\\eventswebApi.csproj",
+  "projectFilePath": "C:\\c#\\bigProject\\eventswebApi\\eventswebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nivro\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nivro\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

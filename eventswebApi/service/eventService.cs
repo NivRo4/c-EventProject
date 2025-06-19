@@ -42,6 +42,14 @@ namespace eventswebApi.service
         {
             return _eventRepository.getWeatherOfEvent(eventId);
         }
+        public int numberOfUsers(int eventId)
+        {
+            return _eventRepository.numberOfUsers(eventId);
+        }
+        public List<Event> searchEventThroughLocation(String location)
+        {
+            return _eventRepository.searchEventThroughLocation(location);
+        }
 
     }
 }

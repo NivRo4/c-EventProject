@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\c#\\big\\eventswebApi\\eventswebApi.csproj": {}
+    "C:\\c#\\bigProject\\eventswebApi\\eventswebApi.csproj": {}
   },
   "projects": {
-    "C:\\c#\\big\\dataBase\\dataBase.csproj": {
+    "C:\\c#\\bigProject\\dataBase\\dataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\c#\\big\\dataBase\\dataBase.csproj",
+        "projectUniqueName": "C:\\c#\\bigProject\\dataBase\\dataBase.csproj",
         "projectName": "dataBase",
-        "projectPath": "C:\\c#\\big\\dataBase\\dataBase.csproj",
+        "projectPath": "C:\\c#\\bigProject\\dataBase\\dataBase.csproj",
         "packagesPath": "C:\\Users\\nivro\\.nuget\\packages\\",
-        "outputPath": "C:\\c#\\big\\dataBase\\obj\\",
+        "outputPath": "C:\\c#\\bigProject\\dataBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nivro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -76,14 +76,14 @@
         }
       }
     },
-    "C:\\c#\\big\\eventswebApi\\eventswebApi.csproj": {
+    "C:\\c#\\bigProject\\eventswebApi\\eventswebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\c#\\big\\eventswebApi\\eventswebApi.csproj",
+        "projectUniqueName": "C:\\c#\\bigProject\\eventswebApi\\eventswebApi.csproj",
         "projectName": "eventswebApi",
-        "projectPath": "C:\\c#\\big\\eventswebApi\\eventswebApi.csproj",
+        "projectPath": "C:\\c#\\bigProject\\eventswebApi\\eventswebApi.csproj",
         "packagesPath": "C:\\Users\\nivro\\.nuget\\packages\\",
-        "outputPath": "C:\\c#\\big\\eventswebApi\\obj\\",
+        "outputPath": "C:\\c#\\bigProject\\eventswebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nivro\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,8 +100,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\c#\\big\\dataBase\\dataBase.csproj": {
-                "projectPath": "C:\\c#\\big\\dataBase\\dataBase.csproj"
+              "C:\\c#\\bigProject\\dataBase\\dataBase.csproj": {
+                "projectPath": "C:\\c#\\bigProject\\dataBase\\dataBase.csproj"
               }
             }
           }
