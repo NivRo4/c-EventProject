@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\c#\\big\\dataBase\\dataBase.csproj": {}
+    "C:\\c#\\bigProject\\dataBase\\dataBase.csproj": {}
   },
   "projects": {
-    "C:\\c#\\big\\dataBase\\dataBase.csproj": {
+    "C:\\c#\\bigProject\\dataBase\\dataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\c#\\big\\dataBase\\dataBase.csproj",
+        "projectUniqueName": "C:\\c#\\bigProject\\dataBase\\dataBase.csproj",
         "projectName": "dataBase",
-        "projectPath": "C:\\c#\\big\\dataBase\\dataBase.csproj",
+        "projectPath": "C:\\c#\\bigProject\\dataBase\\dataBase.csproj",
         "packagesPath": "C:\\Users\\nivro\\.nuget\\packages\\",
-        "outputPath": "C:\\c#\\big\\dataBase\\obj\\",
+        "outputPath": "C:\\c#\\bigProject\\dataBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nivro\\AppData\\Roaming\\NuGet\\NuGet.Config",

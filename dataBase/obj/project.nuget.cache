@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gqQeEua8W38f1Z1x+/NXS1PYJviXdrTjhtLmE3yH184xbtS/nNfU5hJKDw7JPq3r9eoh+M/SdMTXwkeRKWigBw==",
+  "dgSpecHash": "ZIQG50Aj6Z1BAlQB/lXbBAa50CJwRf/Y6qkjx+TTAK3s/HO8kayRnxzQ/v7YHTCQgZCUR4IRtqDF3CFw2YViuQ==",
   "success": true,
-  "projectFilePath": "C:\\c#\\big\\dataBase\\dataBase.csproj",
+  "projectFilePath": "C:\\c#\\bigProject\\dataBase\\dataBase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nivro\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\nivro\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

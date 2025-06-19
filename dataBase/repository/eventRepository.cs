@@ -76,6 +76,7 @@ namespace dataBase.repository
         {
             return eventLibery.Events.Where(ev => ev.Id == id).FirstOrDefault();   
         }
+
         public int UpdatingEvent(String Name, DateTime StartDate, DateTime endtDate, int MaxRegistrations, String Location, int eventid)
         {
             try
@@ -129,6 +130,22 @@ namespace dataBase.repository
         {
             String place= eventLibery.Events.Where(ev=> ev.Id== eventId).Select(ev=> ev.Location).FirstOrDefault();
             return place;
+        }
+
+        public int numberOfUsers(int eventId)
+        {
+        
+                int userCount = eventLibery.Events
+                .Where(e => e.Id == eventId)
+                .Select(e => e.EventUsers.Count)
+                .FirstOrDefault();
+            return userCount;
+                
+        }
+        public List <Event> searchEventThroughLocation(String location) 
+        {
+            List<Event> events = eventLibery.Events.Where(ev => location.Equals(ev.Location)).ToList();
+            return events;
         }
     }
     

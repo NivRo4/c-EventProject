@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dataBase", "dataBase.csproj", "{88F41F4D-AF97-4259-ABB3-DB792FA671E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dataBase", "dataBase.csproj", "{88F41F4D-AF97-4259-ABB3-DB792FA671E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventswebApi", "..\eventswebApi\eventswebApi.csproj", "{4601E286-63E3-4233-8D5D-27DB8AA036E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eventswebApi", "..\eventswebApi\eventswebApi.csproj", "{4601E286-63E3-4233-8D5D-27DB8AA036E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webApi", "..\webApi\webApi.csproj", "{163E3C04-F448-4D3C-A12D-AD95B1089E2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4601E286-63E3-4233-8D5D-27DB8AA036E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4601E286-63E3-4233-8D5D-27DB8AA036E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4601E286-63E3-4233-8D5D-27DB8AA036E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163E3C04-F448-4D3C-A12D-AD95B1089E2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163E3C04-F448-4D3C-A12D-AD95B1089E2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163E3C04-F448-4D3C-A12D-AD95B1089E2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163E3C04-F448-4D3C-A12D-AD95B1089E2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
