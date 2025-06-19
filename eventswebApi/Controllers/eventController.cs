@@ -23,15 +23,31 @@ namespace eventswebApi.Controllers
             _eventService = eventService;
             _memoryCache = memoryCache;
         }
-      
 
+
+        [HttpGet]
+        [Route("{id}/numberOfUsers")]
+        public ActionResult<String> numberofUsers(int id)
+        {
+            int numerOfUsers = _eventService.numberOfUsers(id);
+            return Ok(numerOfUsers);
+        }
+
+        [HttpGet]
+        [Route("{location}/eventLocation")]
+        public ActionResult<List<Event>> getEventThroughLocation (string location)
+        {
+            List<Event> events = _eventService.searchEventThroughLocation(location);
+            return Ok(events);
+        }
+        
         [HttpPost]
-       public ActionResult<String> AddingNewEvent([FromBody] eventDTO ev)
+        public ActionResult<String> AddingNewEvent([FromBody] eventDTO ev)
         {
             int id = _eventService.AddingNewEvent(ev.Name, ev.StartDate, ev.EndDate, ev.MaxRegistrations, ev.Location);
-            if (id!=-1)
+            if (id != -1)
             {
-                return Ok("the adding is succesfull and its id:"+id);
+                return Ok("the adding is succesfull and its id:" + id);
             }
             return Ok("the adding is not succesfull");
         }
@@ -100,6 +116,7 @@ namespace eventswebApi.Controllers
             else
                 return Ok("the event " + id + " was succesfuly deleted");
         }
+
 
         [HttpGet("/schedule")]
         public ActionResult<List<Event>> getSchedule(DateTime StartDate, DateTime endDate)
