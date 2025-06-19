@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>manegerPage</h1>
+    <div id="inputBarContaineSearchEventr">
+        <input type="text" id="myInput" placeholder="the event id">
+        <button id="submitButton" onclick="SearchEventFromIdClick()">search</button>
+    </div>
+    <div id="listOfEvents"></div>
+    <div id="updatesEvent">
+        <div id="information"></div>
+        <div id="enterIdetification">
+            <div id="inputsForAddUser">
+                <input type="text" id="numberOfUsersUpdate" placeholder="the new number of event users must be more">
+            </div>
+            <button id="deletEvent" onclick="deletEvent()">delet Event</button>
+            <button id="UpdateEvent" onclick="updateEvent()">Update Event</button>
+        </div>
+    </div>
+    <script src="ui/managerPage.js"></script>
+</body>
+</html>

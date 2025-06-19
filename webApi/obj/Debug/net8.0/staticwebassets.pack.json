@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\c#\\bigProject\\webApi\\wwwroot\\data\\data.js",
+      "PackagePath": "staticwebassets\\data\\data.js"
+    },
+    {
+      "Id": "C:\\c#\\bigProject\\webApi\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
+      "Id": "C:\\c#\\bigProject\\webApi\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\c#\\bigProject\\webApi\\wwwroot\\manegerPage.html",
+      "PackagePath": "staticwebassets\\manegerPage.html"
+    },
+    {
+      "Id": "C:\\c#\\bigProject\\webApi\\wwwroot\\ui\\homePage.js",
+      "PackagePath": "staticwebassets\\ui\\homePage.js"
+    },
+    {
+      "Id": "C:\\c#\\bigProject\\webApi\\wwwroot\\ui\\managerPage.js",
+      "PackagePath": "staticwebassets\\ui\\managerPage.js"
+    },
+    {
+      "Id": "C:\\c#\\bigProject\\webApi\\wwwroot\\ui\\userPage.js",
+      "PackagePath": "staticwebassets\\ui\\userPage.js"
+    },
+    {
+      "Id": "C:\\c#\\bigProject\\webApi\\wwwroot\\userPage.html",
+      "PackagePath": "staticwebassets\\userPage.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webApi.props",
+      "PackagePath": "build\\webApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.webApi.props",
+      "PackagePath": "buildMultiTargeting\\webApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.webApi.props",
+      "PackagePath": "buildTransitive\\webApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.webApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

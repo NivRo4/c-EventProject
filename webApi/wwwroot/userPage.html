@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>userPage</h1>
+    <div id="inputBarContaineSearchEventr">
+        <input type="text" id="myInput" placeholder="the place of the event">
+        <button id="submitButton" onclick="SearchEventClick()">search</button>
+    </div>
+    <div id="listOfEvents"></div>
+    <div id="updatesEvent">
+        <div id="information"></div>
+        <div id="enterIdetification">
+            <div id="inputsForAddUser">
+                <input type="text" id="nameInput" placeholder="name">
+                <input type="text" id="birsdayInput" placeholder="birsday">
+                <input type="text" id="idInput" placeholder="Event id">
+            </div>
+            <button id="addToEvent" onclick="AddUser()">AddToEvent</button>
+        </div>
+    </div>
+    <script src="ui/userPage.js"></script>
+</body>
+</html>
